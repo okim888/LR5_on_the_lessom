@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a140e7dd-ca0a-476a-8505-b318726217fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MyCustomFileParserClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XMLFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lizogub/JSONFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSONFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lizogub/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lizogub/MyCustomFileParserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyCustomFileParserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSONFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSONFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XMLFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLFileParser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -211,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525974779336</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/okim888/LR5_on_the_lessom&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/com/lizogub/MyCustomFileParserInterface.java">
+      <created>1525977999070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525977999070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,7 +273,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods added" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/okim888/LR5_on_the_lessom&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/com/lizogub/MyCustomFileParserInterface.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/okim888/LR5_on_the_lessom&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/com/lizogub/MyCustomFileParserInterface.java" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LR5_on_the_lessom.iml">
