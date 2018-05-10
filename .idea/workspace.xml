@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a140e7dd-ca0a-476a-8505-b318726217fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/XMLFileParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/MyCustomFileParserClass.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/MyCustomFileParser.java" afterPath="$PROJECT_DIR$/src/MyCustomFileParserInterface.java" />
+      <change beforePath="$PROJECT_DIR$/src/XMLFileParser.java" afterPath="$PROJECT_DIR$/src/XMLFileParser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +17,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyCustomFileParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyCustomFileParser.java">
+      <file leaf-file-name="MyCustomFileParserInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyCustomFileParserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLFileParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyCustomFileParserClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MyCustomFileParserClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#80#81#0" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLFileParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XMLFileParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,6 +88,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/MyCustomFileParser.java" />
+        <option value="$PROJECT_DIR$/src/XMLFileParser.java" />
+        <option value="$PROJECT_DIR$/src/MyCustomFileParserInterface.java" />
+        <option value="$PROJECT_DIR$/src/MyCustomFileParserClass.java" />
       </list>
     </option>
   </component>
@@ -210,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525975014597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="XMLFileParser added">
+      <created>1525975055255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525975055255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -249,14 +280,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Interface MyCustomFileParser methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface MyCustomFileParser methods added" />
+    <MESSAGE value="XMLFileParser added" />
+    <option name="LAST_COMMIT_MESSAGE" value="XMLFileParser added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyCustomFileParser.java">
+    <entry file="file://$PROJECT_DIR$/src/MyCustomFileParserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -280,19 +312,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyCustomFileParser.java">
+    <entry file="file://$PROJECT_DIR$/src/XMLFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMLFileParser.java">
+    <entry file="file://$PROJECT_DIR$/src/MyCustomFileParserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyCustomFileParserClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
