@@ -3,19 +3,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        MyCustomFileParserInterface myP = new JSONFileParser();
+        MyCustomFileParserInterface parser = new JSONFileParser();
 
         if (args[0].equals("JSON")) {
-            myP = new JSONFileParser();
+            parser = new JSONFileParser();
 
         } else if (args[0].equals("XML")) {
-            myP = new XMLFileParser();
+            parser = new XMLFileParser();
         }
 
-        myP.addWord("my word");
-        myP.replaceWord("my word to replace");
-        myP.findWord("find a word");
-        myP.deleteWord("delete a word");
+        parser.addWord("my word");
+        parser.replaceWord("my word to replace");
+        parser.findWord("find a word");
+        parser.deleteWord("delete a word");
     }
 
 }

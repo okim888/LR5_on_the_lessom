@@ -1,22 +1,24 @@
 public class XMLFileParser implements MyCustomFileParserInterface{
 
+    String fileType = "XML";
+
     @Override
-    public boolean findWord(String word) {
-        return false;
+    public void findWord(String word) {
+        System.out.println("Searching for a word in a " + fileType + " file.");
     }
 
     @Override
-    public boolean replaceWord(String word) {
-        return false;
+    public void replaceWord(String word) {
+        System.out.println("Replacing a word in a " + fileType + " file.");
     }
 
     @Override
-    public boolean deleteWord(String word) {
-        return false;
+    public void deleteWord(String word) {
+        System.out.println("Deleting a word in a " + fileType + " file.");
     }
 
     @Override
-    public boolean addWord(String word) {
-        return false;
+    public void addWord(String word) {
+        System.out.println("Adding a word in a " + fileType + " file.");
     }
 }

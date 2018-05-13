@@ -1,7 +1,7 @@
 public interface MyCustomFileParserInterface {
 
-    public boolean findWord(String word);
-    public boolean replaceWord(String word);
-    public boolean deleteWord(String word);
-    public boolean addWord(String word);
+    public void findWord(String word);
+    public void replaceWord(String word);
+    public void deleteWord(String word);
+    public void addWord(String word);
 }
