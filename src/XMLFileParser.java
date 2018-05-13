@@ -7,15 +7,15 @@ public class XMLFileParser implements MyCustomFileParserInterface {
 
     @Override
     public void findWord(String word) {
-        boolean founded = false;
+        boolean isFound = false;
         String[] words = text.split(" |:|,|\\.");
         for(String w:words){
             if(w.equals(word)){
-                founded = true;
+                isFound = true;
                 break;
             }
         }
-        if(founded){
+        if(isFound){
             System.out.println("XMLFileParser: Совпадение найдено!");
         }else{
             System.out.println("XMLFileParser: Не удалось найти слово '" + word + "'");
