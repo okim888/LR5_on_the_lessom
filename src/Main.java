@@ -3,13 +3,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String sampleText = "This is sample XML text, which doesn't have any XML tag.";
+        MyCustomFileParserInterface parser = new JSONFileParser();
 
-        MyCustomFileParserInterface parser = new XMLFileParser(sampleText);
+        if (args[0].equals("JSON")) {
+            parser = new JSONFileParser();
 
-        parser.findWord("XML");
-        parser.replaceWord("Example word");
-        parser.addWord("Example word");
-        parser.deleteWord("Example word");
+        } else if (args[0].equals("XML")) {
+            parser = new XMLFileParser();
+        }
+
+        parser.setText("This is sample XML text.");
+        parser.addWord("my word");
+        parser.replaceWord("my word to replace");
+        parser.findWord("find a word");
+        parser.deleteWord("delete a word");
     }
 }
