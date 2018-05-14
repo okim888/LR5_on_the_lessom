@@ -3,6 +3,8 @@
 
 *.idea
 
+.idea/workspace.xml
+
 # Log file
 *.log
 
