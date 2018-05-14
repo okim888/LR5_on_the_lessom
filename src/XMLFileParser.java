@@ -1,7 +1,8 @@
 public class XMLFileParser implements MyCustomFileParserInterface {
     private String text;
 
-    public XMLFileParser(String text) {
+    @Override
+    public void setText(String text) {
         this.text = text;
     }
 
