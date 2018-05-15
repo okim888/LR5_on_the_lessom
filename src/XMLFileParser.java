@@ -34,6 +34,7 @@ public class XMLFileParser implements MyCustomFileParserInterface {
 
     @Override
     public void addWord(String word) {
+        text += word;
         System.out.println("XMLFileParser: Добавлена строка: " + word);
     }
 }

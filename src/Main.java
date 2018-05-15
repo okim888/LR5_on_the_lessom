@@ -13,9 +13,9 @@ public class Main {
         }
 
         parser.setText("This is sample XML text.");
-        parser.addWord("my word");
+        parser.addWord("searching");
         parser.replaceWord("my word to replace");
-        parser.findWord("find a word");
+        parser.findWord("searching");
         parser.deleteWord("delete a word");
     }
 }

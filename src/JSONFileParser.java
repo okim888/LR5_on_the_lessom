@@ -1,6 +1,12 @@
 public class JSONFileParser implements MyCustomFileParserInterface{
 
+    String text;
     String fileType = "JSON";
+
+    @Override
+    public void setText(String text) {
+        this.text = text;
+    }
 
     @Override
     public void findWord(String word) {
